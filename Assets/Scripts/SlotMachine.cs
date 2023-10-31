@@ -22,12 +22,17 @@ public class SlotMachine : MonoBehaviour
     {
         System.Random rand = new System.Random();
         num1 = rand.Next(1, 100);
-        // num2 = rand.Next(1, 100);
-        // num3 = rand.Next(1, 100);
+        num2 = rand.Next(1, 100);
+        num3 = rand.Next(1, 100);
 
-        Slot rightSlot = slots.FirstOrDefault(item => item.Chance >= num1);
-        row1.SetSlot(rightSlot);
+        Slot firstRightSlot = slots.Last(item => item.Chance >= num1);
+        row1.SetSlot(firstRightSlot);
 
+        Slot secondRightSlot = slots.Last(item => item.Chance >= num2);
+        row2.SetSlot(secondRightSlot);
+
+        Slot thirdRightSlot = slots.Last(item => item.Chance >= num3);
+        row3.SetSlot(thirdRightSlot);
 
     }
 

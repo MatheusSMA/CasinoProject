@@ -634,10 +634,10 @@ MonoBehaviour:
   row2: {fileID: 1346413101}
   row3: {fileID: 1383214895}
   slots:
-  - {fileID: 11400000, guid: 10746e2fee69ad3498e3f70d4efe0338, type: 2}
-  - {fileID: 11400000, guid: e3b4d8687acc1244b97f14f0fbfea7aa, type: 2}
-  - {fileID: 11400000, guid: 4230caff660c2144d84ad59d289e296d, type: 2}
   - {fileID: 11400000, guid: f752ba92c226b3149ae89e92496abfea, type: 2}
+  - {fileID: 11400000, guid: 4230caff660c2144d84ad59d289e296d, type: 2}
+  - {fileID: 11400000, guid: e3b4d8687acc1244b97f14f0fbfea7aa, type: 2}
+  - {fileID: 11400000, guid: 10746e2fee69ad3498e3f70d4efe0338, type: 2}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
