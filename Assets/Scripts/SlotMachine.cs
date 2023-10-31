@@ -10,6 +10,7 @@ public class SlotMachine : MonoBehaviour
     public SlotDisplay row1, row2, row3;
     public List<Slot> slots = new List<Slot>();
 
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
